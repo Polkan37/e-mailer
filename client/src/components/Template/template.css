@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+.error {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ff5858
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: .5em auto;
+}
+
+h1 img {
+    max-height: 1em;
+}
+
+form>input {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+}
+
+.App {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.query-data {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 15px;
+}
+
+.template-data {
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1800px;
+    width: 100%;
+    transition: all ease-out 1s;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.block button {
+    display: block;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+th {
+    padding: 5px;
+    min-width: 90px;
+}
+
+.news-block {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 15px;
+    min-width: 300px;
+}
+
+.sent-news {
+    border: 1px solid green;
+    margin: 15px 10px;
+    padding: 5px 10px;
+}
+
+.info {
+    margin: 1em auto;
+}
+
+.content {
+    margin: 0em 1em;
+}
+
+.subject {
+    margin: 0em 1em;
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.templates {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+
+.mobile-container {
+    padding: 20px 16px 18px 19px;
+    background: url(https://thiscrm.co/upload/images/superGra/winners/image%20109.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-container div {
+    width: 324px;
+    height: 710px;
+    margin: 0px 0px 30px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.desktop iframe {
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.container .info form table {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.container .info form table tr td textarea,
+.input {
+    width: 100%;
+}
+
+.container .info form table>tr,
+td,
+th {
+    min-width: unset;
+    border: none;
+    padding: 3px 10px 0px;
+}
+
+
+/* desktop|mobile preview containers */
+.footer-page .container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 0.5em;
+}
+
+.template-data h3 {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.template-data {
+
+    border-radius: 5px;
+}
+
+.desktop {
+    border: 3px solir rgb(160, 154, 154);
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 1em auto;
+}
+
+.mobile {
+    border: 3px solir rgb(160, 154, 154);
+    border-radius: 5px;
+    min-width: 324px;
+    max-width: 420px;
+    font-weight: 500;
+    margin: 1em;
+}
+
+.desktop>p {
+    margin: 0;
+    background-color: rgb(204, 219, 219);
+}
+
+.mobile>p {
+    margin: 0;
+    background-color: rgb(204, 219, 219);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header span {
+    position: absolute;
+    left: 10px;
+    padding: 5px 10px;
+    background: #8ec2ff;
+    border-radius: 50%;
+    font-weight: 700;
+}
+
+.header p {
+    padding-left: 40px;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: .5em;
+}
+
+.footers-preview h3 {
+    background-color: #8ec2ff;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+.template-header {
+    text-align: left;
+    border: 0.5px solid #111;
+    padding: 10px;
+    margin: 0;
+}
+
+.container .info {
+    width: 350px;
+}
+
+.container .info h4 {
+    margin: 0;
+    padding: 15px;
+    background: rgb(233, 254, 247);
+}
+
+.container .info form {
+    margin: 1em 0.5em;
+}
+
+.container .info form label {
+    margin: 10px 5px 5px;
+    width: 100%;
+}
+
+.container .info form div {
+    margin: auto;
+}
+
+.container .info form div label {
+    display: inline-block;
+    margin: 3px 0px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.html-label {
+    margin: 10px 5px 5px;
+    width: 100%;
+    font-size: 10px;
+    color: #333;
+}
+
+.html-textarea {
+    width: 100%;
+    min-height: 200px;
+}
+
+/* preview */
+.preview__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.preview__info {
+    max-width: 390px;
+}
+
+.preview__info>div {
+    background: #e7f5ff;
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px 0px;
+    border: 1px solid #333;
+}
+
+.preview__html-label {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: #333;
+    font-weight: 700;
+}
+
+.preview__html-textarea {
+    width: 100%;
+    min-height: 400px;
+}
+
+.template-previews .preview__html-textarea {
+    min-height: 250px !important;
+}
+
+.container .info form textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+.container .info form label {
+    font-size: 10px;
+    color: #333;
+}
+
+label input {
+    width: 95%;
+    margin: 5px;
+}
+
+#template-id {
+    max-width: 120px;
+}
+
+.update__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.update__log {
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.update__button {
+    padding: .5em 1em;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+.update__button:hover {
+    background-color: rgb(113, 231, 192);
+}
+
+.update__log-content {
+    margin: 1em;
+    padding: 0;
+    text-align: left;
+}
+
+.update__log-string {
+    margin: 1rem;
+}
+
+.template {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 0.5em;
+    padding: 0 1rem;
+}
+
+.template>.info>.arrow {
+    color: #c5c5c5;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.template>.info {
+    position: relative;
+    background-color: #ececec;
+    min-width: 50vw;
+    margin: 0;
+    padding: 1em 20px;
+    text-align: left;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+}
+
+.template>.info>p {
+    text-align: left;
+}
+
+.template>.info>.arrow:hover {
+    color: #5c5c5c;
+    cursor: pointer;
+}
+
+.template .content {
+    transition: all 1s ease-out;
+}
+
+.template-page .template-data {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.preview-button {
+    display: inline-block;
+    background: url(https://thiscrm.co/upload/images/supergra/test/preview.png) center no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    margin: 0px 5px;
+    padding: 5px 6px 0px 6px;
+    transition: all ease-out 100ms;
+}
+
+.preview-button:hover {
+    scale: 150%;
+}
+
+@media (max-width:2200px) {
+    .template-page .template-data {
+        display: Flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

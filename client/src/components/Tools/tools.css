@@ -1,0 +1,81 @@
+.tools__modal {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+}
+.tools__modal > button {
+    background: none;
+    border: none;
+}
+.tools__modal-icon {
+    border-radius: 50%;
+    transition: background ease-in-out 1s;
+    transition: rotate ease-in-out 8s;
+}
+.tools__modal-icon:hover {
+    background: rgb(231, 231, 231);
+    rotate: 360deg;
+}
+.tools__container {
+    position: absolute;
+    right: 0;
+    width: 180px;
+    z-index: 100;
+    background: rgb(245, 245, 245);
+    padding: 1rem 0.5rem;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 1rem;
+    scale: 0;
+    transition: all ease-in-out .1s;
+    text-align: center;
+}
+.tools__container-header {
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+.tools__container-table {
+    columns: 2;
+
+}
+.tools__checkbox {
+    border: 1px solid #111;
+    margin: 2px;
+    font-size: 18px;
+    text-align: center;
+}
+.show {
+    scale: 1;
+    display: block;
+}
+
+#get-button {
+    margin: 0 .3rem;
+    padding: .3rem .8rem;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background: rgb(121, 228, 255);
+}
+.button-save {
+    margin: 1rem auto 0;
+    padding: .2rem 1rem;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    background: rgb(62, 218, 184);
+
+}
+.button-save:hover {
+    opacity: .8;
+    color: black;
+}
+#get-button:hover {
+    opacity: .8;
+    color: rgb(36, 36, 36);
+}
+
+.preview__template-input {
+    padding: .3rem .8rem;
+    font-size: 16px;
+    border-radius: 0.5rem;
+
+}

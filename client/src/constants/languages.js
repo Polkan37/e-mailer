@@ -1,0 +1,1 @@
+export const languages = [ 'ru', 'en', 'de', 'pl', 'tr', 'uk', 'es', 'pt', 'fi', 'no', 'sv', 'nl', 'fr', 'ja', 'uz', 'kk', 'hi', 'cs',]

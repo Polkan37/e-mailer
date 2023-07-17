@@ -1,0 +1,8 @@
+.sidebar__link {
+    text-decoration: none;
+    color: inherit;
+}
+.logout {
+    position: absolute !important;
+    bottom: 2rem;
+}
